@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 lsblk
 sudo growpart /dev/nvme0n1 4
 sudo lvextend -l +50%FREE /dev/RootVG/rootVol
